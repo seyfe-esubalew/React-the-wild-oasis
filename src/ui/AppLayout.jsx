@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import SideBar from "./SideBar";
 import styled from "styled-components";
-
+import { useForm } from "react-hook-form";
 const StyledAppLayout = styled.div`
   display: grid;
   grid-template-columns: 26rem 1fr;

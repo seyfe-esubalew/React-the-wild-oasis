@@ -52,6 +52,7 @@ function CabinRow({ cabin }) {
     image,
   } = cabin;
   const queryClient = useQueryClient();
+
   const { isLoading: isDeleting, mutate } = useMutation({
     mutationFn: deleteCabins,
     onSuccess: () => {
