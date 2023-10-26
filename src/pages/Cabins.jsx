@@ -1,7 +1,7 @@
 import Heading from "../ui/Heading";
 import Row from "../ui/Row";
 import CabinTable from "../features/cabins/CabinTable";
-import AddCabins from "../features/cabins/AddCsbins";
+import AddCabins from "../features/cabins/AddCabins";
 function Cabins() {
   return (
     <>
